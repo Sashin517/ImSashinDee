@@ -131,7 +131,7 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .about-col-2 p{
-    font-size: 15px;
+    font-size: 18px;
 }
 .about-col-2 p a{
     text-decoration: none;
