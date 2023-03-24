@@ -564,7 +564,9 @@ nav .fa-solid{
     .copyright p i{
         font-size: 30px;
     }
-
+    #msg{
+        font-size: 30px;
+    }
 }
 #msg{
     color: #1E3062;
