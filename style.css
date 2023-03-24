@@ -565,11 +565,11 @@ nav .fa-solid{
         font-size: 30px;
     }
     #msg{
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 #msg{
-    color: #558EFE;
+    color: #61b752;
     margin-top: -40px;
     display: block;
 }
