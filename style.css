@@ -536,10 +536,13 @@ nav .fa-solid{
         outline: none;
         background: #1E2C51;
         padding: 40px;
-        margin: 40px 0;
+        margin: 20px 0;
         color: #ffffff;
         font-size: 40px;
         border-radius: 10px ;
+    }
+    .form textarea{
+        rows="10"
     }
     form .btn2{
         padding: 30px 80px;
