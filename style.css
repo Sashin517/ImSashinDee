@@ -508,6 +508,7 @@ nav .fa-solid{
         height: 80px;
     }
     .btn{
+        flex-basis: 100%;
         font-size: 14px;
         padding: 30px 90px;
         border-radius: 12px;
