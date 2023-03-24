@@ -36,7 +36,8 @@ nav{
     
 }
 .logo{
-    width: 146px;
+    transform: scale(0.9);
+    object-fit: cover;
 }
 nav ul li{
     display: inline-block;
