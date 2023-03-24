@@ -462,12 +462,12 @@ nav .fa-solid{
         font-size: 35px;
     }
     .tab-contents ul li{
-        font-size: 30px;
+        font-size: 35px;
         margin: 30px 0;
         line-height: 1.25;
     }
     .tab-contents ul li span{
-        font-size: 30px;
+        font-size: 35px;
     }
     .services-list{
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -532,11 +532,11 @@ nav .fa-solid{
         border: 0;
         outline: none;
         background: #1E2C51;
-        padding: 20px;
-        margin: 20px 0;
+        padding: 40px;
+        margin: 40px 0;
         color: #ffffff;
         font-size: 40px;
-        border-radius: 6px ;
+        border-radius: 10px ;
     }
     form .btn2{
         padding: 30px 80px;
@@ -549,10 +549,10 @@ nav .fa-solid{
         margin-top: 100px;
     }
     .copyright p{
-        font-size: 10px;
+        font-size: 30px;
     }
     .copyright p i{
-        font-size: 10px;
+        font-size: 30px;
     }
 
 }
