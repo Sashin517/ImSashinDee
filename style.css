@@ -91,8 +91,8 @@ nav ul li a:hover::after{
     --sixth-color: #1E3E90;
     --seventh-color: #2753c4;
     --eight-color: #95BDFF;
-    --ninth-color: #2753c4;
-    --tenth-color: #1E3E90;    
+    --ninth-color: #162f6d;
+    --tenth-color: #2753c4;    
     --special-color: rgba(255, 255, 255, 0.6);
 }
 #icon{
