@@ -23,7 +23,7 @@
                 <li><a href="#contact">Contact</a></li>
                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
             </ul>
-            <img src="images/toggle-on-solid (1).png" id="icon">
+            <img src="images/toggle-off-solid.png" id="icon">
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
@@ -281,9 +281,9 @@
     icon.onclick = function(){
         document.body.classList.toggle("dark-theme");
         if(document.body.classList.contains("dark-theme")){
-            icon.src = "images/toggle-off-solid.png";
+            icon.src = "images/toggle-on-solid (1).png";
         }else{
-            icon.src = "images/toggle-on-solid (1).png";  
+            icon.src = "images/toggle-off-solid.png";  
         }
     }
 </script>
