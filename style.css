@@ -70,19 +70,6 @@ nav ul li a:hover::after{
     width:100%;
 }
 :root{
-    --primary-color: #1E2436;
-    --secondary-color: #ababab;
-    --third-color: #fff;
-    --forth-color: #1D1B1F;
-    --fifth-color: #1D1B1F;
-    --sixth-color: #1E3E90;
-    --seventh-color: #262626;
-    --eight-color: #1E2C51;
-    --ninth-color: #1E3E90;
-    --tenth-color: #1E2C51;
-    --special-color: rgba(0,0,0,0.6);
-}
-.dark-theme{
     --primary-color: #edf2fc;
     --secondary-color: #212121;
     --third-color: #212121;
@@ -94,6 +81,19 @@ nav ul li a:hover::after{
     --ninth-color: #162f6d;
     --tenth-color: #2753c4;    
     --special-color: rgba(255, 255, 255, 0.6);
+}
+.dark-theme{--primary-color: #1E2436;
+    --secondary-color: #ababab;
+    --third-color: #fff;
+    --forth-color: #1D1B1F;
+    --fifth-color: #1D1B1F;
+    --sixth-color: #1E3E90;
+    --seventh-color: #262626;
+    --eight-color: #1E2C51;
+    --ninth-color: #1E3E90;
+    --tenth-color: #1E2C51;
+    --special-color: rgba(0,0,0,0.6);
+    
 }
 #icon{
     width: 30px;
