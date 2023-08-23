@@ -168,7 +168,7 @@
                 </div>
             </div>
             <div class="work">
-                <img src="images/Nethmi.jpeg">
+                <img src="images/Asiri.png">
                 <div class="layer">
                     <h3>Digital Art</h3>
                     <p>The app connetcs you with the talented people around the world
@@ -184,7 +184,7 @@
                         Dowload it from play store</p>
                     <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
                 </div>
-            </div>
+            </div>    
         </div>
         <a href="#" class="btn">See more</a>
     </div>
@@ -204,7 +204,7 @@
                     <a href=""><i class="fa-brands fa-twitter"></i></a>
                     <a href="https://www.instagram.com/sashin_deemantha__/"><i class="fa-brands fa-instagram"></i></a>
                     <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://github.com/Sashin517"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/Sashin517"><i class="fa-brands fa-github"></i></a>                    
                 </div>
                 <div class="btnn">
                     <a href="images/SD_CV.pdf" class="btn btn2"><span><i class="fa-solid fa-floppy-disk"></i></span>Download my CV</a>
@@ -286,6 +286,21 @@
             icon.src = "images/toggle-off-solid.png";  
         }
     }
+</script>
+<script>
+    window.onscroll = function() {stickyNav()};
+
+    var navbar = document.querySelector('nav');
+    var sticky = navbar.offsetTop;
+
+    function stickyNav() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add('sticky');
+        } else {
+            navbar.classList.remove('sticky');
+        }
+    }
+
 </script>
 </body>
 </html>
